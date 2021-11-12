@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['src/app/__main__.py'],
-             pathex=['src'],
+             pathex=['src', '/home/sihc/.virtualenvs/tkinter/lib/python3.8/site-packages/'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -37,4 +37,4 @@ exe = EXE(pyz,
           disable_windowed_traceback=False,
           target_arch=None,
           codesign_identity=None,
-          entitlements_file=None , version='version.txt')
+          entitlements_file=None )

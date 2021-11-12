@@ -1,0 +1,34 @@
+- Create a Menu Bar:
+    - File:
+        - Save
+            -> Lưu lại
+        - Export
+            -> Export ra 1 file (nội dung lưu lại != nội dung hiển thị )
+    - Help:
+        - About
+
+- CURD
+    - No -> Checkbox: có thể select row
+    - Click phải vào 1 row (bất kì itom nào trong row)
+        -> check checkbox (xóa những checkbox đang được chọn trên table).
+        -> hiện context menu:
+            - Edit -> Hiện popup:
+                - Hiện thông tin
+                - Sửa
+                - Lưu
+                - Cancel
+            - Delete -> Hỏi:
+                - muốn delete hay không?
+                    - Yes -> Page mất 1 giá trị
+            - View: Hiện toàn bộ thông tin -> label
+
+    - Paging: 15 items/1 page
+        - Giữ lại toàn bộ trạng thái của check box
+    - Edit trên line:
+        - double click -> edit
+        - Enter -> Lưu
+        - Click đi nơi khác -> như Enter
+    - Button Add new -> Hiện popup:
+        - Tile
+        - content
+        - ...

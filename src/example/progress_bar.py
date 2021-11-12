@@ -17,7 +17,7 @@ def step():
 
 
 pb1 = Progressbar(ws, orient=HORIZONTAL, length=100, mode="indeterminate")
-pb1.pack(expand=True)
+pb1.pack()
 
 Button(ws, text="Start", command=step).pack()
 
