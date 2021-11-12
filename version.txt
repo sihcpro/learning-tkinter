@@ -1,0 +1,5 @@
+Version: 1.0.0
+FileDescription: Stack Overflow Report
+InternalName: Stack Overflow Report
+OriginalFilename: StackOverflowReport.exe
+ProductName: Stack Overflow Report

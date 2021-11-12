@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['src/app/__main__.py'],
-             pathex=[],
+             pathex=['src'],
              binaries=[],
              datas=[],
              hiddenimports=[],
@@ -33,8 +33,8 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True,
+          console=False,
           disable_windowed_traceback=False,
           target_arch=None,
           codesign_identity=None,
-          entitlements_file=None )
+          entitlements_file=None , version='version.txt')
